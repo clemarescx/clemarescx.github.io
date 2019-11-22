@@ -19,24 +19,23 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: supermoose666
-github_username: clemarescx 
+github_username: clemarescx
 
-lsi: false
-safe: true
-incremental: false
-highlighter: rouge
-gist:
-  noscript: false
+# lsi: false
+# safe: true
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
 
 # Build settings
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# kramdown:
+#   math_engine: mathjax
+#   syntax_highlighter: rouge
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

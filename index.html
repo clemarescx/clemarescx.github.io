@@ -1,23 +1,6 @@
 ---
-layout: home
-title: Potatoes 
+layout: default
+title: Potatoes
 ---
-<head>
-	{% if page.css %}
-	<link rel="stylesheet" href="/css/{{ page.css }}.css" type="text/css" />{% endif %}
-	<title>TMP FTW</title>
-</head>
-<body>
-	<h1>
-		Potatoes.
-	</h1>
-	<ul>
-		{% for post in site.posts %}
-		<li>
-			<div class="date">{{ post.date | date_to_string }}</div>
-			<a href="{{ site.prefix }}{{ post.url }}">{{ post.title }}</a>
-			<p>{{ post.content }}</p>
-		</li>
-		{% endfor %}
-	</ul>
-</body>
+
+<h1>{{ "potatoes." | capitalize }}</h1>
